@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generated with glade 3.38.2 -->
+<interface>
+  <requires lib="gtk+" version="3.24"/>
+  <object class="GtkWindow" id="g_window">
+    <property name="can-focus">False</property>
+    <child>
+      <object class="GtkBox" id="g_box_head">
+        <property name="visible">True</property>
+        <property name="can-focus">False</property>
+        <property name="margin-start">25</property>
+        <property name="margin-end">25</property>
+        <property name="margin-top">25</property>
+        <property name="margin-bottom">11</property>
+        <property name="orientation">vertical</property>
+        <child>
+          <object class="GtkBox" id="g_box_menu">
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="spacing">50</property>
+            <child>
+              <object class="GtkStackSwitcher" id="g_StackSwicher_menu">
+                <property name="visible">True</property>
+                <property name="can-focus">False</property>
+                <property name="stack">g_stack_page</property>
+              </object>
+              <packing>
+                <property name="expand">False</property>
+                <property name="fill">True</property>
+                <property name="position">0</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkBox">
+                <property name="visible">True</property>
+                <property name="can-focus">False</property>
+                <property name="orientation">vertical</property>
+                <child>
+                  <object class="GtkButton" id="g_button_exit">
+                    <property name="visible">True</property>
+                    <property name="can-focus">True</property>
+                    <property name="receives-default">True</property>
+                    <signal name="clicked" handler="g_button_exit_clicked_cb" swapped="no"/>
+                    <child>
+                      <object class="GtkImage">
+                        <property name="visible">True</property>
+                        <property name="can-focus">False</property>
+                        <property name="stock">gtk-stop</property>
+                        <property name="icon_size">6</property>
+                      </object>
+                    </child>
+                  </object>
+                  <packing>
+                    <property name="expand">False</property>
+                    <property name="fill">True</property>
+                    <property name="position">0</property>
+                  </packing>
+                </child>
+                <child>
+                  <placeholder/>
+                </child>
+              </object>
+              <packing>
+                <property name="expand">False</property>
+                <property name="fill">True</property>
+                <property name="pack-type">end</property>
+                <property name="position">1</property>
+              </packing>
+            </child>
+          </object>
+          <packing>
+            <property name="expand">False</property>
+            <property name="fill">True</property>
+            <property name="padding">7</property>
+            <property name="position">0</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkStack" id="g_stack_page">
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="margin-start">34</property>
+            <property name="margin-top">7</property>
+            <child>
+              <!-- n-columns=2 n-rows=3 -->
+              <object class="GtkGrid" id="g_grid_buttonArea">
+                <property name="visible">True</property>
+                <property name="can-focus">False</property>
+                <property name="margin-start">19</property>
+                <property name="margin-top">23</property>
+                <property name="row-spacing">29</property>
+                <property name="column-spacing">20</property>
+                <child>
+                  <object class="GtkButton" id="g_button_pBA_1">
+                    <property name="label" translatable="yes" context="&lt;p style=&quot;font-size: 24px;&quot;&gt;Ваш текст здесь&lt;/p&gt;">button1</property>
+                    <property name="visible">True</property>
+                    <property name="can-focus">True</property>
+                    <property name="receives-default">True</property>
+                    <signal name="clicked" handler="g_button_pBA_1_clicked_cb" swapped="no"/>
+                  </object>
+                  <packing>
+                    <property name="left-attach">0</property>
+                    <property name="top-attach">0</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkButton" id="g_button_pBA_2">
+                    <property name="label" translatable="yes">button2</property>
+                    <property name="visible">True</property>
+                    <property name="can-focus">True</property>
+                    <property name="receives-default">True</property>
+                    <signal name="clicked" handler="g_button_pBA_2_clicked_cb" swapped="no"/>
+                  </object>
+                  <packing>
+                    <property name="left-attach">0</property>
+                    <property name="top-attach">1</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkButton" id="g_button_pBA_3">
+                    <property name="label" translatable="yes">button3</property>
+                    <property name="visible">True</property>
+                    <property name="can-focus">True</property>
+                    <property name="receives-default">True</property>
+                    <property name="image-position">right</property>
+                    <signal name="clicked" handler="g_button_pBA_3_clicked_cb" swapped="no"/>
+                  </object>
+                  <packing>
+                    <property name="left-attach">0</property>
+                    <property name="top-attach">2</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkLabel" id="g_label_pBA_1">
+                    <property name="visible">True</property>
+                    <property name="can-focus">False</property>
+                    <property name="label" translatable="yes">label</property>
+                  </object>
+                  <packing>
+                    <property name="left-attach">1</property>
+                    <property name="top-attach">0</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkLabel" id="g_label_pBA_2">
+                    <property name="visible">True</property>
+                    <property name="can-focus">False</property>
+                    <property name="label" translatable="yes">label</property>
+                  </object>
+                  <packing>
+                    <property name="left-attach">1</property>
+                    <property name="top-attach">1</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkLabel" id="g_label_pBA_3">
+                    <property name="visible">True</property>
+                    <property name="can-focus">False</property>
+                    <property name="label" translatable="yes">label</property>
+                  </object>
+                  <packing>
+                    <property name="left-attach">1</property>
+                    <property name="top-attach">2</property>
+                  </packing>
+                </child>
+              </object>
+              <packing>
+                <property name="name">page0</property>
+                <property name="title" translatable="yes">          Button Area          </property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkBox" id="g_box_display">
+                <property name="visible">True</property>
+                <property name="can-focus">False</property>
+                <property name="margin-start">19</property>
+                <property name="margin-end">10</property>
+                <property name="margin-top">23</property>
+                <property name="margin-bottom">10</property>
+                <property name="orientation">vertical</property>
+                <property name="spacing">5</property>
+                <child>
+                  <object class="GtkBox" id="g_box_display_mode">
+                    <property name="visible">True</property>
+                    <property name="can-focus">False</property>
+                    <property name="margin-start">11</property>
+                    <property name="spacing">10</property>
+                    <child>
+                      <object class="GtkSwitch" id="g_switch_display_mode">
+                        <property name="visible">True</property>
+                        <property name="can-focus">True</property>
+                        <property name="margin-start">86</property>
+                        <signal name="activate" handler="g_switch_display_mode_activate_cb" swapped="no"/>
+                      </object>
+                      <packing>
+                        <property name="expand">False</property>
+                        <property name="fill">True</property>
+                        <property name="position">0</property>
+                      </packing>
+                    </child>
+                    <child>
+                      <object class="GtkLabel" id="g_label_display_mode">
+                        <property name="visible">True</property>
+                        <property name="can-focus">False</property>
+                        <property name="label" translatable="yes">Полноэкранный режим</property>
+                        <attributes>
+                          <attribute name="font-desc" value="Ubuntu 20"/>
+                        </attributes>
+                      </object>
+                      <packing>
+                        <property name="expand">False</property>
+                        <property name="fill">True</property>
+                        <property name="position">1</property>
+                      </packing>
+                    </child>
+                  </object>
+                  <packing>
+                    <property name="expand">False</property>
+                    <property name="fill">True</property>
+                    <property name="position">0</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkBox" id="g_box_display_frame">
+                    <property name="visible">True</property>
+                    <property name="can-focus">False</property>
+                    <property name="margin-start">96</property>
+                    <property name="spacing">10</property>
+                    <child>
+                      <object class="GtkSwitch" id="g_switch_display_frame">
+                        <property name="visible">True</property>
+                        <property name="can-focus">True</property>
+                        <signal name="activate" handler="g_switch_display_frame_activate_cb" swapped="no"/>
+                      </object>
+                      <packing>
+                        <property name="expand">False</property>
+                        <property name="fill">True</property>
+                        <property name="position">0</property>
+                      </packing>
+                    </child>
+                    <child>
+                      <object class="GtkLabel" id="g_label_display_frame">
+                        <property name="visible">True</property>
+                        <property name="can-focus">False</property>
+                        <property name="label" translatable="yes">Рамка включена</property>
+                        <attributes>
+                          <attribute name="font-desc" value="Ubuntu 20"/>
+                        </attributes>
+                      </object>
+                      <packing>
+                        <property name="expand">False</property>
+                        <property name="fill">True</property>
+                        <property name="position">1</property>
+                      </packing>
+                    </child>
+                  </object>
+                  <packing>
+                    <property name="expand">False</property>
+                    <property name="fill">True</property>
+                    <property name="position">1</property>
+                  </packing>
+                </child>
+                <child>
+                  <placeholder/>
+                </child>
+              </object>
+              <packing>
+                <property name="name">page2</property>
+                <property name="title" translatable="yes">          Display          </property>
+                <property name="position">1</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkBox" id="g_box_admin">
+                <property name="visible">True</property>
+                <property name="can-focus">False</property>
+                <property name="orientation">vertical</property>
+                <child>
+                  <placeholder/>
+                </child>
+                <child>
+                  <placeholder/>
+                </child>
+                <child>
+                  <placeholder/>
+                </child>
+              </object>
+              <packing>
+                <property name="name">page3</property>
+                <property name="title" translatable="yes" context="&lt;span size='large'&gt;&lt;/span&gt;">          Admin         </property>
+                <property name="position">2</property>
+              </packing>
+            </child>
+          </object>
+          <packing>
+            <property name="expand">True</property>
+            <property name="fill">True</property>
+            <property name="position">1</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="g_label_log">
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="margin-top">17</property>
+            <property name="label" translatable="yes">label</property>
+            <property name="ellipsize">start</property>
+            <attributes>
+              <attribute name="style" value="oblique"/>
+              <attribute name="weight" value="bold"/>
+              <attribute name="variant" value="title-caps"/>
+              <attribute name="scale" value="1"/>
+              <attribute name="strikethrough-color" value="#ffffffffffff"/>
+            </attributes>
+          </object>
+          <packing>
+            <property name="expand">False</property>
+            <property name="fill">True</property>
+            <property name="pack-type">end</property>
+            <property name="position">2</property>
+          </packing>
+        </child>
+      </object>
+    </child>
+  </object>
+</interface>
